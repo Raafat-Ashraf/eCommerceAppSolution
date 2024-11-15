@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bnlP7M4HllRqZJwiOFJEpedfDccfgG1XTzrM/qBocKk=",
+  "Source": "eCommerceApp.Api",
+  "BasePath": "_content/eCommerceApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
