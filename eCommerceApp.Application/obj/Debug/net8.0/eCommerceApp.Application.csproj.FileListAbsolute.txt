@@ -1,0 +1,16 @@
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\bin\Debug\net8.0\eCommerceApp.Application.deps.json
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\bin\Debug\net8.0\eCommerceApp.Application.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\bin\Debug\net8.0\eCommerceApp.Application.pdb
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\bin\Debug\net8.0\eCommerceApp.Domain.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\bin\Debug\net8.0\eCommerceApp.Domain.pdb
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.csproj.AssemblyReference.cache
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.AssemblyInfoInputs.cache
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.AssemblyInfo.cs
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.csproj.CoreCompileInputs.cache
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.sourcelink.json
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerc.006428F5.Up2Date
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\refint\eCommerceApp.Application.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\eCommerceApp.Application.pdb
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Application\obj\Debug\net8.0\ref\eCommerceApp.Application.dll

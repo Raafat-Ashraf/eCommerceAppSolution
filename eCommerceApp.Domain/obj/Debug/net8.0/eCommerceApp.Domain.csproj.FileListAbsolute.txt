@@ -1,0 +1,12 @@
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\bin\Debug\net8.0\eCommerceApp.Domain.deps.json
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\bin\Debug\net8.0\eCommerceApp.Domain.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\bin\Debug\net8.0\eCommerceApp.Domain.pdb
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.AssemblyInfoInputs.cache
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.AssemblyInfo.cs
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.csproj.CoreCompileInputs.cache
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.sourcelink.json
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\refint\eCommerceApp.Domain.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.pdb
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\ref\eCommerceApp.Domain.dll
