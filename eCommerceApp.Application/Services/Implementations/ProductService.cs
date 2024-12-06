@@ -1,6 +1,7 @@
 using AutoMapper;
 using eCommerceApp.Application.Abstractions;
 using eCommerceApp.Application.Dtos.Product;
+using eCommerceApp.Application.Exceptions;
 using eCommerceApp.Application.Services.Interfaces;
 using eCommerceApp.Domain.Entities;
 using eCommerceApp.Domain.Interfaces;
@@ -35,7 +36,7 @@ public class ProductService(
     {
         if (await categoryRepository.GetByIdAsync(product.CategoryId) is not { } category)
             return Result.Failure<ProductResponse>(new Error("Category.NotFound",
-                " No Category was found with the given ID", StatusCodes.Status404NotFound));
+                "No Category was found with the given ID", StatusCodes.Status404NotFound));
 
         var productMapped = mapper.Map<Product>(product);
 

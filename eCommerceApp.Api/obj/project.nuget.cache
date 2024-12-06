@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "QshY+h4ss/Y=",
+  "dgSpecHash": "amZwpZ8qSn4=",
   "success": true,
   "projectFilePath": "E:\\.Net\\.Net Advanced Topics\\Netcode-Hub\\eCommerce with Clean Architecture\\eCommerceAppSolution\\eCommerceApp.Api\\eCommerceApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raafa\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\raafa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\raafa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\raafa\\.nuget\\packages\\entityframeworkcore.exceptions.common\\8.1.3\\entityframeworkcore.exceptions.common.8.1.3.nupkg.sha512",
+    "C:\\Users\\raafa\\.nuget\\packages\\entityframeworkcore.exceptions.sqlserver\\8.1.3\\entityframeworkcore.exceptions.sqlserver.8.1.3.nupkg.sha512",
     "C:\\Users\\raafa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\raafa\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\raafa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
