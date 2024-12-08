@@ -1,7 +1,9 @@
+using eCommerceApp.Application.Services.Interfaces.Logging;
 using eCommerceApp.Domain.Interfaces;
 using eCommerceApp.Infrastructure.Data;
 using eCommerceApp.Infrastructure.Middleware;
 using eCommerceApp.Infrastructure.Repositories;
+using eCommerceApp.Infrastructure.Services;
 using EntityFramework.Exceptions.SqlServer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +27,7 @@ public static class ServiceContainer
         );
 
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+        services.AddScoped(typeof(IAppLogger<>), typeof(SerilogLoggerAdapter<>));
 
         return services;
     }

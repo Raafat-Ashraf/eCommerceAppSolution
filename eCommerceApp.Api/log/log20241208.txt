@@ -1,0 +1,29 @@
+2024-12-08 16:54:27.786 +02:00 [INF] Application is building...
+2024-12-08 16:54:28.127 +02:00 [INF] Application is running...
+2024-12-08 16:54:28.283 +02:00 [INF] Now listening on: https://localhost:7178
+2024-12-08 16:54:28.291 +02:00 [INF] Now listening on: http://localhost:5113
+2024-12-08 16:54:28.298 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-08 16:54:28.302 +02:00 [INF] Hosting environment: Development
+2024-12-08 16:54:28.305 +02:00 [INF] Content root path: E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api
+2024-12-08 16:54:41.845 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - null null
+2024-12-08 16:54:42.084 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 183.6993 ms
+2024-12-08 16:54:42.102 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - 200 null text/html;charset=utf-8 258.1463ms
+2024-12-08 16:54:42.304 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - null null
+2024-12-08 16:54:42.606 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 296.9002 ms
+2024-12-08 16:54:42.610 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 306.7877ms
+2024-12-08 16:54:47.728 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/Categories - null null
+2024-12-08 16:54:47.768 +02:00 [INF] Executing endpoint 'eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api)'
+2024-12-08 16:54:47.820 +02:00 [INF] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller eCommerceApp.Api.Controllers.CategoriesController (eCommerceApp.Api).
+2024-12-08 16:54:48.302 +02:00 [INF] Executing action method eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api) - Validation state: "Valid"
+2024-12-08 16:54:49.503 +02:00 [WRN] Property 'Id' on entity type 'Category' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2024-12-08 16:54:49.505 +02:00 [WRN] Property 'Id' on entity type 'Product' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2024-12-08 16:54:50.871 +02:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2024-12-08 16:54:50.996 +02:00 [INF] Executed action method eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2678.6661ms.
+2024-12-08 16:54:51.015 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[eCommerceApp.Application.Dtos.Category.CategoryResponse, eCommerceApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-08 16:54:51.070 +02:00 [INF] Executed action eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api) in 3237.7493ms
+2024-12-08 16:54:51.077 +02:00 [INF] Executed endpoint 'eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api)'
+2024-12-08 16:54:51.082 +02:00 [INF] HTTP GET /api/Categories responded 200 in 3340.8964 ms
+2024-12-08 16:54:51.105 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/Categories - 200 null application/json; charset=utf-8 3376.7905ms
+2024-12-08 16:55:03.410 +02:00 [INF] Application is shutting down...

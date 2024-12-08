@@ -154,3 +154,12 @@ E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eComm
 E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\eCommerceApp.Infrastructure.pdb
 E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\EntityFramework.Exceptions.Common.dll
 E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\EntityFramework.Exceptions.SqlServer.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
