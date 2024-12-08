@@ -23,10 +23,26 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructureService(builder.Configuration);
 builder.Services.AddApplicationService();
 
+// cors
+builder.Services.AddCors(c =>
+{
+    c.AddDefaultPolicy(options =>
+    {
+        options.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
+    });
+});
+
+
 try
 {
     var app = builder.Build();
+
+    app.UseCors();
     app.UseSerilogRequestLogging();
+
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
     {
