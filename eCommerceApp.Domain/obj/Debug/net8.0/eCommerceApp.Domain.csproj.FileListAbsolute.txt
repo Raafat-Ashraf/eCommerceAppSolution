@@ -10,3 +10,4 @@ E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eComm
 E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\refint\eCommerceApp.Domain.dll
 E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.pdb
 E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\ref\eCommerceApp.Domain.dll
+E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Domain\obj\Debug\net8.0\eCommerceApp.Domain.csproj.AssemblyReference.cache

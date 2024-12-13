@@ -1,0 +1,268 @@
+2024-12-12 22:15:45.448 +02:00 [INF] Application is building...
+2024-12-12 22:15:46.069 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:15:46.309 +02:00 [INF] Application is running...
+2024-12-12 22:15:46.464 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c.<<Main>$>b__0_0(CorsOptions c) in E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\Program.cs:line 29
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-12-12 22:15:46.533 +02:00 [ERR] Hosting failed to start
+System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c.<<Main>$>b__0_0(CorsOptions c) in E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\Program.cs:line 29
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-12-12 22:15:46.587 +02:00 [ERR] Application failed to start
+System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at Program.<>c.<<Main>$>b__0_0(CorsOptions c) in E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\Program.cs:line 29
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\Program.cs:line 60
+2024-12-12 22:16:14.066 +02:00 [INF] Application is building...
+2024-12-12 22:16:17.955 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:16:19.338 +02:00 [INF] Application is running...
+2024-12-12 22:16:48.382 +02:00 [INF] Application is building...
+2024-12-12 22:16:50.002 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:16:50.579 +02:00 [INF] Application is running...
+2024-12-12 22:16:51.643 +02:00 [INF] Now listening on: https://localhost:7178
+2024-12-12 22:16:51.650 +02:00 [INF] Now listening on: http://localhost:5113
+2024-12-12 22:16:51.768 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:16:51.774 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:16:51.776 +02:00 [INF] Content root path: E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api
+2024-12-12 22:16:52.123 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - null null
+2024-12-12 22:19:10.035 +02:00 [INF] Application is building...
+2024-12-12 22:19:12.264 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:19:12.862 +02:00 [INF] Application is running...
+2024-12-12 22:19:13.609 +02:00 [INF] Now listening on: https://localhost:7178
+2024-12-12 22:19:13.759 +02:00 [INF] Now listening on: http://localhost:5113
+2024-12-12 22:19:13.783 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:19:13.843 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:19:13.846 +02:00 [INF] Content root path: E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api
+2024-12-12 22:19:14.214 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - null null
+2024-12-12 22:22:00.106 +02:00 [INF] Application is building...
+2024-12-12 22:22:01.797 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:22:02.203 +02:00 [INF] Application is running...
+2024-12-12 22:22:02.643 +02:00 [INF] Now listening on: https://localhost:7178
+2024-12-12 22:22:02.659 +02:00 [INF] Now listening on: http://localhost:5113
+2024-12-12 22:22:02.670 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:22:02.678 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:22:02.681 +02:00 [INF] Content root path: E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api
+2024-12-12 22:22:03.119 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - null null
+2024-12-12 22:22:03.772 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 316.7450 ms
+2024-12-12 22:22:04.763 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - 200 null text/html;charset=utf-8 1635.9806ms
+2024-12-12 22:22:05.523 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - null null
+2024-12-12 22:22:05.788 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 256.6758 ms
+2024-12-12 22:22:05.794 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 270.9358ms
+2024-12-12 22:35:38.404 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/api/Categories - null null
+2024-12-12 22:36:55.963 +02:00 [INF] Executing endpoint 'eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api)'
+2024-12-12 22:36:56.024 +02:00 [INF] Route matched with {action = "GetAll", controller = "Categories", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller eCommerceApp.Api.Controllers.CategoriesController (eCommerceApp.Api).
+2024-12-12 22:36:56.874 +02:00 [INF] Executing action method eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api) - Validation state: "Valid"
+2024-12-12 22:36:59.797 +02:00 [WRN] Property 'Id' on entity type 'Category' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2024-12-12 22:36:59.802 +02:00 [WRN] Property 'Id' on entity type 'Product' is part of a primary or alternate key, but has a constant default value set. Constant default values are not useful for primary or alternate keys since these properties must always have non-null unique values.
+2024-12-12 22:37:02.568 +02:00 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2024-12-12 22:37:02.835 +02:00 [INF] Executed action method eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5943.3707ms.
+2024-12-12 22:37:02.947 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[eCommerceApp.Application.Dtos.Category.CategoryResponse, eCommerceApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:37:03.134 +02:00 [INF] Executed action eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api) in 7092.6208ms
+2024-12-12 22:37:03.176 +02:00 [INF] Executed endpoint 'eCommerceApp.Api.Controllers.CategoriesController.GetAll (eCommerceApp.Api)'
+2024-12-12 22:37:03.187 +02:00 [INF] HTTP GET /api/Categories responded 200 in 84761.1907 ms
+2024-12-12 22:37:03.224 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/api/Categories - 200 null application/json; charset=utf-8 84821.073ms
+2024-12-12 22:38:12.334 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7178/Authentication/register - application/json 102
+2024-12-12 22:38:12.377 +02:00 [INF] CORS policy execution successful.
+2024-12-12 22:38:12.384 +02:00 [INF] Executing endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:38:12.404 +02:00 [INF] Route matched with {action = "Register", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(eCommerceApp.Application.Dtos.Identity.CreateUser) on controller eCommerceApp.Api.Controllers.AuthenticationController (eCommerceApp.Api).
+2024-12-12 22:38:12.421 +02:00 [INF] Executed action eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api) in 9.2452ms
+2024-12-12 22:38:12.427 +02:00 [INF] Executed endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:38:12.520 +02:00 [ERR] UnKnown exception
+System.InvalidOperationException: Unable to resolve service for type 'eCommerceApp.Application.Services.Interfaces.Authentication.IAuthenticationService' while attempting to activate 'eCommerceApp.Api.Controllers.AuthenticationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean hasDefaultValue, Object key)
+   at lambda_method32(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at eCommerceApp.Infrastructure.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Infrastructure\Middleware\ExceptionHandlingMiddleware.cs:line 15
+2024-12-12 22:38:12.601 +02:00 [ERR] HTTP POST /Authentication/register responded 500 in 216.9675 ms
+2024-12-12 22:38:12.607 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7178/Authentication/register - 500 null null 272.5796ms
+2024-12-12 22:38:32.449 +02:00 [INF] Application is building...
+2024-12-12 22:38:32.994 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:38:33.169 +02:00 [INF] Application is running...
+2024-12-12 22:38:33.378 +02:00 [INF] Now listening on: https://localhost:7178
+2024-12-12 22:38:33.380 +02:00 [INF] Now listening on: http://localhost:5113
+2024-12-12 22:38:33.387 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:38:33.391 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:38:33.394 +02:00 [INF] Content root path: E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api
+2024-12-12 22:38:34.002 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - null null
+2024-12-12 22:38:34.472 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 293.3629 ms
+2024-12-12 22:38:34.506 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - 200 null text/html;charset=utf-8 507.469ms
+2024-12-12 22:38:34.998 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - null null
+2024-12-12 22:38:35.515 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 440.7975 ms
+2024-12-12 22:38:35.522 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 523.9399ms
+2024-12-12 22:39:15.627 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7178/Authentication/register - application/json 102
+2024-12-12 22:39:15.653 +02:00 [INF] CORS policy execution successful.
+2024-12-12 22:39:15.675 +02:00 [INF] Executing endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:39:15.738 +02:00 [INF] Route matched with {action = "Register", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(eCommerceApp.Application.Dtos.Identity.CreateUser) on controller eCommerceApp.Api.Controllers.AuthenticationController (eCommerceApp.Api).
+2024-12-12 22:39:15.762 +02:00 [INF] Executed action eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api) in 6.9262ms
+2024-12-12 22:39:15.768 +02:00 [INF] Executed endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:39:15.774 +02:00 [ERR] UnKnown exception
+System.InvalidOperationException: Unable to resolve service for type 'eCommerceApp.Application.Services.Interfaces.Authentication.IAuthenticationService' while attempting to activate 'eCommerceApp.Api.Controllers.AuthenticationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at eCommerceApp.Infrastructure.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Infrastructure\Middleware\ExceptionHandlingMiddleware.cs:line 15
+2024-12-12 22:39:15.828 +02:00 [ERR] HTTP POST /Authentication/register responded 500 in 171.3171 ms
+2024-12-12 22:39:15.834 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7178/Authentication/register - 500 null null 206.6943ms
+2024-12-12 22:40:53.780 +02:00 [INF] Application is shutting down...
+2024-12-12 22:41:27.096 +02:00 [INF] Application is building...
+2024-12-12 22:41:27.693 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:41:27.922 +02:00 [INF] Application is running...
+2024-12-12 22:41:28.139 +02:00 [INF] Now listening on: https://localhost:7178
+2024-12-12 22:41:28.141 +02:00 [INF] Now listening on: http://localhost:5113
+2024-12-12 22:41:28.151 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:41:28.155 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:41:28.159 +02:00 [INF] Content root path: E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api
+2024-12-12 22:41:28.914 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/index.html - null null
+2024-12-12 22:41:29.501 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 344.5205 ms
+2024-12-12 22:41:29.531 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/index.html - 200 null text/html;charset=utf-8 619.0956ms
+2024-12-12 22:41:29.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - null null
+2024-12-12 22:41:30.413 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 437.5842 ms
+2024-12-12 22:41:30.430 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7178/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 640.4375ms
+2024-12-12 22:41:37.440 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7178/Authentication/register - application/json 102
+2024-12-12 22:41:37.470 +02:00 [INF] CORS policy execution successful.
+2024-12-12 22:41:37.489 +02:00 [INF] Executing endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:41:37.558 +02:00 [INF] Route matched with {action = "Register", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(eCommerceApp.Application.Dtos.Identity.CreateUser) on controller eCommerceApp.Api.Controllers.AuthenticationController (eCommerceApp.Api).
+2024-12-12 22:41:38.469 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-12 22:41:38.535 +02:00 [INF] Executed action eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api) in 961.0354ms
+2024-12-12 22:41:38.539 +02:00 [INF] Executed endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:41:38.542 +02:00 [INF] HTTP POST /Authentication/register responded 400 in 1068.7359 ms
+2024-12-12 22:41:38.553 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7178/Authentication/register - 400 null application/problem+json; charset=utf-8 1113.7347ms
+2024-12-12 22:43:47.239 +02:00 [INF] Application is shutting down...
+2024-12-12 22:44:06.875 +02:00 [INF] Application is building...
+2024-12-12 22:44:09.404 +02:00 [INF] User profile is available. Using 'C:\Users\raafa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 22:44:10.363 +02:00 [INF] Application is running...
+2024-12-12 22:44:11.045 +02:00 [INF] Now listening on: https://localhost:7178
+2024-12-12 22:44:11.059 +02:00 [INF] Now listening on: http://localhost:5113
+2024-12-12 22:44:11.073 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:44:11.078 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:44:11.080 +02:00 [INF] Content root path: E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api
+2024-12-12 22:44:27.973 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7178/Authentication/register - application/json 102
+2024-12-12 22:44:28.300 +02:00 [INF] CORS policy execution successful.
+2024-12-12 22:44:28.405 +02:00 [INF] Executing endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:44:28.487 +02:00 [INF] Route matched with {action = "Register", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(eCommerceApp.Application.Dtos.Identity.CreateUser) on controller eCommerceApp.Api.Controllers.AuthenticationController (eCommerceApp.Api).
+2024-12-12 22:44:30.313 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-12 22:44:30.533 +02:00 [INF] Executed action eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api) in 2012.1052ms
+2024-12-12 22:44:30.551 +02:00 [INF] Executed endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:44:30.568 +02:00 [INF] HTTP POST /Authentication/register responded 400 in 2253.1389 ms
+2024-12-12 22:44:30.607 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7178/Authentication/register - 400 null application/problem+json; charset=utf-8 2633.5617ms
+2024-12-12 22:45:07.319 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7178/Authentication/register - application/json 102
+2024-12-12 22:45:07.345 +02:00 [INF] CORS policy execution successful.
+2024-12-12 22:45:07.363 +02:00 [INF] Executing endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:45:07.370 +02:00 [INF] Route matched with {action = "Register", controller = "Authentication", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(eCommerceApp.Application.Dtos.Identity.CreateUser) on controller eCommerceApp.Api.Controllers.AuthenticationController (eCommerceApp.Api).
+2024-12-12 22:45:07.416 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-12 22:45:07.432 +02:00 [INF] Executed action eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api) in 54.908ms
+2024-12-12 22:45:07.437 +02:00 [INF] Executed endpoint 'eCommerceApp.Api.Controllers.AuthenticationController.Register (eCommerceApp.Api)'
+2024-12-12 22:45:07.441 +02:00 [INF] HTTP POST /Authentication/register responded 400 in 85.0593 ms
+2024-12-12 22:45:07.447 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7178/Authentication/register - 400 null application/problem+json; charset=utf-8 130.2022ms
+2024-12-12 22:47:12.700 +02:00 [INF] Application is building...
+2024-12-12 22:47:13.049 +02:00 [ERR] Application failed to start
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in E:\.Net\.Net Advanced Topics\Netcode-Hub\eCommerce with Clean Architecture\eCommerceAppSolution\eCommerceApp.Api\Program.cs:line 41

@@ -1,9 +1,11 @@
 using eCommerceApp.Application.Dtos.Category;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eCommerceApp.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class CategoriesController(ICategoryService categoryService) : ControllerBase
 {
     [HttpGet]
